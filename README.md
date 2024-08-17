@@ -3,7 +3,7 @@ Wine Quality Case Study
 Project Overview
 This project analyzes the Wine Quality dataset to uncover the significant features that determine or affect the quality ratings of wine. The study also explores the differences between red and white wines based on various characteristics, such as sugar content, acidity, and more.
 
-Dataset
+Dataset 
 Source: UCI Machine Learning Repository
 Description: The dataset consists of chemical properties of red and white variants of Portuguese "Vinho Verde" wine. The data includes variables like fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, alcohol, and the quality rating.
 Objectives
