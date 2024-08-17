@@ -1,56 +1,48 @@
-# Explore-Weather-Trends
-# Wine Quality Case Study
+# Exploring Weather Trends
 
 ## Project Overview
-This project analyzes the Wine Quality dataset to uncover the significant features that determine or affect the quality ratings of wine. The study also explores the differences between red and white wines based on various characteristics, such as sugar content, acidity, and more.
+This project analyzes long-term temperature trends, comparing the average temperature of a specific city (Delhi) with global temperature trends. The primary objective is to identify and visualize patterns in climate change over time, utilizing historical data.
 
 ## Dataset
-- **Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Wine+Quality)
-- **Description:** The dataset consists of chemical properties of red and white variants of Portuguese "Vinho Verde" wine. The data includes variables like fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, alcohol, and the quality rating.
+- **Source:** The data is sourced from publicly available climate data repositories.
+- **Content:** The dataset includes yearly average temperatures for Delhi and globally, spanning a period of 176 years.
 
 ## Objectives
-- **Feature Analysis:** Identify the key features that most significantly affect the quality ratings of wine.
-- **Comparison:** Differentiate between red and white wine based on their chemical properties.
-- **Predictive Modeling:** Develop models to predict wine quality based on the identified features.
+- **Trend Analysis:** Explore and compare the temperature trends of Delhi with global averages.
+- **Data Smoothing:** Apply a rolling average to the dataset to smooth out short-term fluctuations and highlight long-term trends.
+- **Visualization:** Create visual representations of the data to facilitate a clear comparison between local and global climate patterns.
 
 ## Methodology
-1. **Data Preprocessing:** 
-   - Handling missing values, outliers, and scaling features.
-   - Data splitting into training and testing sets.
+1. **Data Loading:** 
+   - The dataset is loaded using Pandas, and initial exploratory analysis is conducted to understand the data's structure.
    
-2. **Exploratory Data Analysis (EDA):**
-   - Visualizing the distribution of features.
-   - Analyzing correlations between features and wine quality.
+2. **Data Preprocessing:**
+   - Data is cleaned, and a rolling average is applied to smooth the temperature trends.
    
-3. **Feature Selection:**
-   - Identifying the most influential features using statistical techniques.
-   - Comparing feature importance between red and white wines.
+3. **Trend Analysis:**
+   - A 9-year rolling average is calculated for both the city (Delhi) and global temperature data to identify long-term trends.
    
-4. **Modeling:**
-   - Implementing machine learning models like Linear Regression, Decision Trees, and Random Forests.
-   - Evaluating model performance using metrics such as accuracy, precision, recall, and F1-score.
-   
-5. **Result Interpretation:**
-   - Analyzing model outcomes to determine key factors influencing wine quality.
-   - Highlighting the differences between red and white wines.
+4. **Visualization:**
+   - Matplotlib is used to plot the temperature trends, providing a clear visual comparison between Delhi and global temperatures over the specified period.
+   - The plot highlights key differences and similarities in temperature trends over time.
 
 ## Results
-- **Key Features:** The most influential features identified include alcohol content, volatile acidity, and sulphates.
-- **Red vs. White Wine:** Red wine tends to have higher levels of volatile acidity and sulphates, while white wine generally has a higher sugar content.
+- **Temperature Trends:** The analysis reveals significant long-term trends in both Delhi and global temperatures, with noticeable patterns of warming over the 176-year period.
+- **Comparison:** The visualization clearly shows how Delhi's temperature trends align or diverge from global patterns, offering insights into regional climate dynamics.
 
 ## Tools & Technologies
 - **Programming Languages:** Python
-- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
-- **Visualization:** Tableau, Matplotlib, Seaborn
-- **Statistical Analysis:** Correlation analysis, Feature importance
+- **Libraries:** Pandas, NumPy, Matplotlib
+- **Techniques:** Rolling averages, data visualization, trend analysis
 
 ## Conclusion
-This case study provides valuable insights into the factors that affect wine quality and highlights the chemical differences between red and white wine. The findings can help winemakers and consumers better understand the characteristics that contribute to a high-quality wine.
+The "Exploring Weather Trends" project provides valuable insights into climate patterns by comparing regional and global temperature trends. The use of rolling averages effectively smooths the data, revealing long-term trends that are critical for understanding climate change.
 
 ## Future Work
-- **Model Enhancement:** Experiment with more advanced machine learning models to improve prediction accuracy.
-- **Dataset Expansion:** Analyze a larger dataset or incorporate other types of wine for a more comprehensive study.
-- **Feature Engineering:** Explore additional features such as wine aging or geographical origin.
+- **Extended Analysis:** Explore additional cities or regions to provide a more comprehensive understanding of global climate trends.
+- **Advanced Modeling:** Incorporate predictive modeling techniques to forecast future temperature trends based on historical data.
+- **Interactive Visualizations:** Develop interactive visualizations to enable users to explore temperature trends across different time periods and locations.
 
 ## Author
 Prabhav Jain
+
