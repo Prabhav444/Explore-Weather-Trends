@@ -11,6 +11,7 @@ Feature Analysis: Identify the key features that most significantly affect the q
 Comparison: Differentiate between red and white wine based on their chemical properties.
 Predictive Modeling: Develop models to predict wine quality based on the identified features.
 Methodology
+
 Data Preprocessing:
 Handling missing values, outliers, and scaling features.
 Data splitting into training and testing sets.
@@ -27,19 +28,24 @@ Result Interpretation:
 Analyzing model outcomes to determine key factors influencing wine quality.
 Highlighting the differences between red and white wines.
 Results
+
 Key Features: The most influential features identified include alcohol content, volatile acidity, and sulphates.
 Red vs. White Wine: Red wine tends to have higher levels of volatile acidity and sulphates, while white wine generally has a higher sugar content.
 Tools & Technologies
+
 Programming Languages: Python
 Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 Visualization: Tableau, Matplotlib, Seaborn
 Statistical Analysis: Correlation analysis, Feature importance
 Conclusion
+
 This case study provides valuable insights into the factors that affect wine quality and highlights the chemical differences between red and white wine. The findings can help winemakers and consumers better understand the characteristics that contribute to a high-quality wine.
 
 Future Work
+
 Model Enhancement: Experiment with more advanced machine learning models to improve prediction accuracy.
 Dataset Expansion: Analyze a larger dataset or incorporate other types of wine for a more comprehensive study.
 Feature Engineering: Explore additional features such as wine aging or geographical origin.
+
 Author
-[Prabhav Jain]
+Prabhav Jain
